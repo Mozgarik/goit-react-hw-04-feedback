@@ -1,0 +1,52 @@
+li,
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.Feedback {
+    text-align: center;
+}
+
+.button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20%;
+    background-color: #fff;
+    cursor: pointer;
+    
+}
+
+.button:hover {
+transform: scale(1.1) ;
+transition: transform 0.25s;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item li {
+    font-size: 30px;
+    margin-left: 20px;
+    border: 1px solid #111;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.Notification {
+    text-align: center;
+}
